@@ -3,8 +3,8 @@ import socket
 import subprocess
 
 #Gather data from R for outdoor air quality
-command = "PATH_TO_R"
-path = "PATH_TO_SCRIPT"
+command = "PATH_TO_R_INSTALL"
+path = "PATH_TO_SCRIPT/OutdoorAirQuality.R"
 cmd = [command, path]
 
 #Execute command to run R script
