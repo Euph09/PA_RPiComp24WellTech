@@ -1706,7 +1706,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Air quality is unoptimal or unsafe - check sensor readings.",
+                "to": "Air quality is suboptimal or unsafe - check sensor readings.",
                 "tot": "str"
             }
         ],
