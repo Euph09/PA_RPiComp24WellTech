@@ -16,6 +16,6 @@ listenSocket.listen(maxConnections)
 #Accept connection
 clientsocket, addresss = listenSocket.accept()
 
-#Recieve message with buffer of 8 and decode
+#Recieve message with buffer of 32 and decode
 message = clientsocket.recv(32).decode()
 print(message)
