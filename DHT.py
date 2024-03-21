@@ -2,7 +2,7 @@ import time
 import board
 import adafruit_dht
 
-#Set up DHT11 sensor
+#Set up DHT11 sensor - replace the number after the D with the GPIO port the sensor is wired to
 sensor = adafruit_dht.DHT11(board.D17, use_pulseio=False)
 
 def Measure():
