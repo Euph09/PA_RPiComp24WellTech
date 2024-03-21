@@ -1,1 +1,1 @@
-This is the repository of code for team WellTech's entry into the 2024 PA Systems Raspberry Pi competition. d
+This is the repository of code for team WellTech's entry into the 2024 PA Systems Raspberry Pi competition. They made a motorised vent that was automated based on readings from outdoor and indoor air quality, to optimise indoor air quality.
