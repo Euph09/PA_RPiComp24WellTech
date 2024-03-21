@@ -4,6 +4,7 @@ from gpiozero import AngularServo
 from gpiozero.pins.pigpio import PiGPIOFactory
 import time
 
+#Set up servo motor
 my_factory = PiGPIOFactory()
 myGPIO =18
 SERVO_DELAY_SEC = 0.01
@@ -11,7 +12,8 @@ myCorrection = 0.0
 maxPW=(2.5+myCorrection)/1000
 minPW=(0.5-myCorrection)/1000
 servo = AngularServo(myGPIO, initial_angle=0, min_angle=0, max_angle=180, min_pulse_width=minPW, max_pulse_width=maxPW,pin_factory=my_factory)
-        
+
+#Function for smoothly turning vent from previous angle to given angle
 def turn(fromAngle, toAngle):
 	if fromAngle>toAngle:	#For closing vent
 		for angle in range(fromAngle, toAngle, -1): #Smoothly turn from fromAngle to toAngle
@@ -27,7 +29,8 @@ def turn(fromAngle, toAngle):
 	log.write(str(toAngle))
 	log.close()
 
-		
+
+#Find previous angle
 previousAngle = open("PrevAngle","r")	
 	
 previous = previousAngle.read()
@@ -36,7 +39,7 @@ previousAng = ''.join(str(e)for e in previous)
 
 previousAngle.close()
 
-
+#Find angle to go to
 toAngle = open("NewAngle","r")
 
 to = toAngle.read()
