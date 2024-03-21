@@ -1,0 +1,3427 @@
+[
+    {
+        "id": "5e8fae0241b5a5d3",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bab6a2b5226995d5",
+        "type": "group",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Manual Override",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#7fb7df",
+            "label": true,
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "abba90d1177acf90",
+            "2d5aa55ec312daa3",
+            "f8f5e397b5eefee2",
+            "06e823bebbb5c1a2",
+            "7fe16f3016605c29",
+            "cfe5d65973ade3c6",
+            "7b0d2db92096297f",
+            "db9822cf9ff1f139",
+            "af8b9cb7d854d494",
+            "ffc51578fdc0db8d",
+            "83842090105ccf96",
+            "4a10e499f1b7c4a6",
+            "0ccc1ab9be2cc3c2",
+            "d1a7254e75da2ee1",
+            "c5e9d483bbf5fc54",
+            "c673356e3eade745"
+        ],
+        "x": 1974,
+        "y": 179,
+        "w": 1232,
+        "h": 302
+    },
+    {
+        "id": "24124fc0cd2f9a80",
+        "type": "group",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Collection and Displaying of RPi sensor Data",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffdf7f",
+            "label": true,
+            "fill-opacity": "0.43"
+        },
+        "nodes": [
+            "1c8c3ee7e2a2e187",
+            "7afb32d8a771334f",
+            "22b4adca1e3242ce",
+            "1308d2c224c4527b",
+            "d8b82e4319cb97e0",
+            "29b71afe151a350b",
+            "263a73bf2a93e289",
+            "8825be93e7c7987e",
+            "5d15d201d66efe86",
+            "d28abaa578db371e",
+            "c6dfe07e5da3c5c3",
+            "80642b5f021e02ef",
+            "05c986185b0d260d",
+            "e2e5aee5a2ee8f59",
+            "bf371a582470de1f",
+            "2d7c3630b664cc15",
+            "868c54e94cd822fd",
+            "4da5526de7824c93",
+            "daa9c3d5a5df15b6",
+            "01d9ec628561ed91",
+            "6da8baec48e36ae9",
+            "a47c7951f09c4528",
+            "2d8f3f3f295f578d"
+        ],
+        "x": 134,
+        "y": 39,
+        "w": 1712,
+        "h": 742
+    },
+    {
+        "id": "17638bed092c0ddf",
+        "type": "group",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Status light management",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ff7f7f",
+            "fill-opacity": "0.5",
+            "label": true
+        },
+        "nodes": [
+            "bf18f1ffb1e29003",
+            "4a54289cb722a79f",
+            "eae51f3a6db17d99",
+            "25edbfd3d14155d0",
+            "866a8f6d359ee779",
+            "6e2dd81c919ec7b4",
+            "709a87cfe215347e",
+            "ad073b4c572756e0",
+            "0dc9603157687114",
+            "2519154e43d9d1ac",
+            "81004bfd334a2c4c",
+            "524188fe036b2adb",
+            "d866349e62c5e14b",
+            "eeda6bb74524fab5"
+        ],
+        "x": 214,
+        "y": 1319,
+        "w": 1232,
+        "h": 382
+    },
+    {
+        "id": "820c0263d86a0f97",
+        "type": "group",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Collection and displaying of local AQ data",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#c8e7a7",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "55d2f9fa7ac11f47",
+            "1c5bd8e58da61ff1",
+            "e12d3a2c4c472139",
+            "3daaee257607602a",
+            "d2ec4d1bd8bfb9ef"
+        ],
+        "x": 1974,
+        "y": 499,
+        "w": 1372,
+        "h": 122
+    },
+    {
+        "id": "cc64f2cdd3273351",
+        "type": "group",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Site design",
+        "style": {
+            "stroke": "#001f60",
+            "fill": "#7f8faf",
+            "fill-opacity": "0.5",
+            "label": true
+        },
+        "nodes": [
+            "ccf560b305d96a59",
+            "3692f2736f5c5190",
+            "0f4d01627c4af93e",
+            "085fc91ef2c9d61d",
+            "39de99e964c1fbcd",
+            "a374c59842344413",
+            "98f042514fb65088",
+            "0ebb19fec4a76655"
+        ],
+        "x": 2714,
+        "y": 699,
+        "w": 332,
+        "h": 202
+    },
+    {
+        "id": "57f52333f9d64ee1",
+        "type": "group",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Vent Angle Management",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#b797cf",
+            "fill-opacity": "0.5",
+            "label": true
+        },
+        "nodes": [
+            "14c8ee387e404402",
+            "d18f4c591f06743a",
+            "c4a736094b1563e9",
+            "84e971207309162a",
+            "bc0916b0e915b90c",
+            "608f3342f4357b59",
+            "298ffc7a8b9a6737",
+            "6f29b03a41692c3b",
+            "7fce40221695a2c4",
+            "a0fb656e146251ef",
+            "ae23abcca9db4cc0",
+            "7ead37e3dcd4ad19",
+            "a97329a38e8cbf76",
+            "2693847e8c067aab",
+            "2f6218f000160931",
+            "de283c983f8d288e",
+            "833f769ccf2bae19",
+            "dbc934472733beb7",
+            "50df06b86823612c",
+            "02a7bd80d3705d11",
+            "885447a46bc24f72",
+            "56de0c1d72391829",
+            "dc28351a32dd69b1",
+            "3115df86b7b07a55",
+            "861a9df1aa4ddc31"
+        ],
+        "x": 154,
+        "y": 819,
+        "w": 2372,
+        "h": 462
+    },
+    {
+        "id": "626e5ad535a408aa",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 420,
+        "wires": [
+            [
+                "1c8c3ee7e2a2e187",
+                "29b71afe151a350b",
+                "263a73bf2a93e289",
+                "c6dfe07e5da3c5c3",
+                "14c8ee387e404402",
+                "bf18f1ffb1e29003"
+            ]
+        ]
+    },
+    {
+        "id": "1c8c3ee7e2a2e187",
+        "type": "exec",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "command": " python3 /home/robert/Documents/RPicomp23/airquality1.py",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "7afb32d8a771334f"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7afb32d8a771334f",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Extract Values",
+        "func": "var payload = msg.payload;\nvar array = payload.replace( /[\\(\\)]/g, \"\").split( /\\s*,\\s*/ );\n\nvar pmtwofive = { payload: parseFloat(array[0]), topic:\"log(pmtwofive)\"}\nvar pmten = { payload: parseFloat(array[1]), topic: \"log(pmten)\" }\n\nreturn [pmtwofive,pmten];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 340,
+        "wires": [
+            [
+                "22b4adca1e3242ce",
+                "bf371a582470de1f"
+            ],
+            [
+                "1308d2c224c4527b",
+                "2d7c3630b664cc15"
+            ]
+        ]
+    },
+    {
+        "id": "22b4adca1e3242ce",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Log",
+        "func": "msg.payload = Math.log(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 160,
+        "wires": [
+            [
+                "5d15d201d66efe86"
+            ]
+        ]
+    },
+    {
+        "id": "1308d2c224c4527b",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Log",
+        "func": "msg.payload = Math.log(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 220,
+        "wires": [
+            [
+                "5d15d201d66efe86"
+            ]
+        ]
+    },
+    {
+        "id": "d8b82e4319cb97e0",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "group": "878755477d7ac85d",
+        "order": 3,
+        "width": 12,
+        "height": 5,
+        "gtype": "gage",
+        "title": "PM 10 average (last 5 mins)",
+        "label": " μg/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "40",
+        "diff": false,
+        "className": "gauge",
+        "x": 1700,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "29b71afe151a350b",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "PM10 Safety Level",
+        "func": "msg.payload = Math.log(40)\nmsg.topic = \"PM10 safety level\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 120,
+        "wires": [
+            [
+                "5d15d201d66efe86"
+            ]
+        ]
+    },
+    {
+        "id": "263a73bf2a93e289",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "PM2.5 Safety Level",
+        "func": "msg.payload = Math.log(12)\nmsg.topic = \"PM2.5 safety level\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 80,
+        "wires": [
+            [
+                "5d15d201d66efe86"
+            ]
+        ]
+    },
+    {
+        "id": "8825be93e7c7987e",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "group": "878755477d7ac85d",
+        "order": 2,
+        "width": 12,
+        "height": 5,
+        "gtype": "gage",
+        "title": "PM 2.5 average (last 5 mins)",
+        "label": " μg/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "8",
+        "seg2": "12",
+        "diff": false,
+        "className": "gauge",
+        "x": 1700,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "ccf560b305d96a59",
+        "type": "ui_template",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "878755477d7ac85d",
+        "name": "CSS",
+        "order": 28,
+        "width": 24,
+        "height": 1,
+        "format": "<style>\n.gauge{\n    font-size:1.5em;\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2790,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d15d201d66efe86",
+        "type": "ui_chart",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "group": "5fd4916e1cb3609c",
+        "order": 1,
+        "width": 30,
+        "height": 6,
+        "label": "Particulate matter",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#9290fe",
+            "#ff9494",
+            "#ff0000",
+            "#0000ff",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "chart",
+        "x": 1650,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d28abaa578db371e",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Extract Values",
+        "func": "var payload = msg.payload;\nvar array = payload.replace( /[\\(\\)]/g, \"\").split( /\\s*,\\s*/ );\n\nvar temperature = { payload: parseFloat(array[0]), topic:\"temperature(°C)\"}\nvar humidity = { payload: parseFloat(array[1]), topic: \"humidity(%)\" }\n\nreturn [temperature,humidity];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 540,
+        "wires": [
+            [
+                "80642b5f021e02ef",
+                "4da5526de7824c93"
+            ],
+            [
+                "80642b5f021e02ef",
+                "e2e5aee5a2ee8f59"
+            ]
+        ]
+    },
+    {
+        "id": "c6dfe07e5da3c5c3",
+        "type": "exec",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "command": " python3 /home/robert/Documents/RPicomp23/DHT.py",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "d28abaa578db371e"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "80642b5f021e02ef",
+        "type": "ui_chart",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "group": "5fd4916e1cb3609c",
+        "order": 2,
+        "width": 30,
+        "height": 6,
+        "label": "Temperature and Humidity",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "chart",
+        "x": 1680,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "05c986185b0d260d",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "group": "878755477d7ac85d",
+        "order": 15,
+        "width": 12,
+        "height": 6,
+        "gtype": "donut",
+        "title": "Humidity average (last 5 mins)",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#01b500",
+            "#cb3a3a"
+        ],
+        "seg1": "40",
+        "seg2": "59",
+        "diff": false,
+        "className": "gauge",
+        "x": 1670,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "e2e5aee5a2ee8f59",
+        "type": "smooth",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "30",
+        "round": "0",
+        "mult": "single",
+        "reduce": false,
+        "x": 1340,
+        "y": 680,
+        "wires": [
+            [
+                "05c986185b0d260d",
+                "6da8baec48e36ae9"
+            ]
+        ]
+    },
+    {
+        "id": "bf371a582470de1f",
+        "type": "smooth",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "30",
+        "round": "1",
+        "mult": "single",
+        "reduce": false,
+        "x": 1340,
+        "y": 380,
+        "wires": [
+            [
+                "8825be93e7c7987e",
+                "01d9ec628561ed91",
+                "daa9c3d5a5df15b6"
+            ]
+        ]
+    },
+    {
+        "id": "2d7c3630b664cc15",
+        "type": "smooth",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "30",
+        "round": "1",
+        "mult": "single",
+        "reduce": false,
+        "x": 1340,
+        "y": 440,
+        "wires": [
+            [
+                "d8b82e4319cb97e0"
+            ]
+        ]
+    },
+    {
+        "id": "868c54e94cd822fd",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "group": "878755477d7ac85d",
+        "order": 14,
+        "width": 12,
+        "height": 6,
+        "gtype": "donut",
+        "title": "Temperature average (last 5 mins)",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#070dd5",
+            "#00b500",
+            "#cb3a3a"
+        ],
+        "seg1": "17.9",
+        "seg2": "21",
+        "diff": false,
+        "className": "gauge",
+        "x": 1680,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "4da5526de7824c93",
+        "type": "smooth",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "30",
+        "round": "0",
+        "mult": "single",
+        "reduce": false,
+        "x": 1340,
+        "y": 500,
+        "wires": [
+            [
+                "868c54e94cd822fd",
+                "a47c7951f09c4528"
+            ]
+        ]
+    },
+    {
+        "id": "3692f2736f5c5190",
+        "type": "ui_template",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "5fd4916e1cb3609c",
+        "name": "CSS",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.chart{\n    font-size:2em;\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2790,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "daa9c3d5a5df15b6",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "PM2.5 Monitor",
+        "func": "var pm25Outer = flow.get(\"pmOuter\")||15\nflow.set(\"pm25Inner\")\n\nif(msg.payload>=12){\n    if(msg.payload>pm25Outer){\n        var ventLevel = 10;\n    }else{\n        var ventLevel = 3;\n    }\n}\nelse{\n    var ventLevel = 3;\n}\nflow.set(\"pm25Impact\",ventLevel)\nmsg.payload= ventLevel\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01d9ec628561ed91",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "PM10 Monitor",
+        "func": "var pm10Outer = flow.get(\"pm10Outer\") || 15\nflow.set(\"pm10Inner\", msg.payload)\n\nif(msg.payload>=40){\n    if(msg.payload>pm10Outer){\n        var ventLevel = 10;\n    }else{\n        var ventLevel = 3;\n    }\n}\nelse{\n    var ventLevel = 3;\n}\nflow.set(\"pm10Impact\", ventLevel)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6da8baec48e36ae9",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Humidity Monitor",
+        "func": "if(msg.payload>=60){\n    var ventLevel = 10;\n}\nelse if(msg.payload<=40){\n    var ventLevel = 1;\n}\nelse{\n    var ventLevel = 3;\n}\nflow.set(\"hdtyImpact\", ventLevel)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a47c7951f09c4528",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Temperature Monitor",
+        "func": "if(msg.payload>=22){\n    var ventLevel = 10;\n}\nelse if(msg.payload<=17.9){\n    var ventLevel = 1;\n}\nelse{\n    var ventLevel = 3;\n}\nflow.set(\"tempImpact\", ventLevel)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1660,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14c8ee387e404402",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "SetAngle",
+        "func": "var pm25Impact = flow.get(\"pm25Impact\")||3\nvar pm10Impact = flow.get(\"pm10Impact\")||3\nvar tempImpact = flow.get(\"tempImpact\")||3\nvar hdtyImpact = flow.get(\"hdtyImpact\")||3\n\nvar pm25Inner = flow.get(\"pm25Inner\")||5\nvar pm10Inner = flow.get(\"pm10Inner\")||7\nvar pm24Outer = flow.get(\"pm25Outer\")||10\nvar pm10Outer = flow.get(\"pm10Outer\")||13\n\nmsg.topic = \"Angle\";\nvar angle = 20;\nif(pm25Impact ==10 || pm10Impact ==10){\n    angle = 85;   \n    if(tempImpact == 1){\n        angle =angle-10;\n    }\n}\nelse if(hdtyImpact == 1){\n    angle = 1;\n}\nelse if(hdtyImpact == 10){\n    if(pm25Inner<pm24Outer || pm10Inner<pm10Inner){\n        angle = 35;\n    }else{\n        angle = 70;\n    }\n    angle = 70;\n}\nelse if(tempImpact == 10){\n    angle = 50;\n}else if(tempImpact == 1){\n    angle = 5;\n}\nflow.set(\"ventAngle\", angle)\nmsg.payload = angle;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 880,
+        "wires": [
+            []
+        ],
+        "info": "This function sets the automatic angle of vent, based on measurements.\r\nCan be overriden by manual override"
+    },
+    {
+        "id": "d18f4c591f06743a",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "group": "637efc48aab047d8",
+        "order": 2,
+        "width": 12,
+        "height": 9,
+        "gtype": "gage",
+        "title": "Vent Angle",
+        "label": "degrees",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "90",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "35",
+        "seg2": "65",
+        "diff": false,
+        "className": "gauge",
+        "x": 1530,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0f4d01627c4af93e",
+        "type": "ui_template",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "637efc48aab047d8",
+        "name": "CSS",
+        "order": 12,
+        "width": 1,
+        "height": 1,
+        "format": "<style>\n.gauge{\n    font-size:1.5em;\n}\n.override{\n    font-size:1.5em;\n    color: rgba(255,0,0,1);\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2790,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55d2f9fa7ac11f47",
+        "type": "exec",
+        "z": "5e8fae0241b5a5d3",
+        "g": "820c0263d86a0f97",
+        "command": " python3 /home/robert/Documents/RPicomp23/sockets_server1.py",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 2520,
+        "y": 560,
+        "wires": [
+            [
+                "e12d3a2c4c472139"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1c5bd8e58da61ff1",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "820c0263d86a0f97",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2090,
+        "y": 560,
+        "wires": [
+            [
+                "55d2f9fa7ac11f47"
+            ]
+        ]
+    },
+    {
+        "id": "e12d3a2c4c472139",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "820c0263d86a0f97",
+        "name": "Extract Values",
+        "func": "var payload = msg.payload;\nvar array = payload.replace(/\"/g ,\"\").split( /\\s*,\\s*/ );\n\nvar pm25 = Math.round(parseFloat(array[0])*10)/10\nvar pm10 = Math.round(parseFloat(array[1])*10)/10\n\nflow.set(\"pm25Outer\", pm25)\nflow.set(\"pm10outer\", pm10)\n\nvar pmtwofive = { payload: pm25, topic:\"pmtwofiveExternal\"}\nvar pmten = { payload: pm10, topic: \"pmtenExternal\" }\n\nreturn [pmtwofive,pmten];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2920,
+        "y": 560,
+        "wires": [
+            [
+                "3daaee257607602a"
+            ],
+            [
+                "d2ec4d1bd8bfb9ef"
+            ]
+        ]
+    },
+    {
+        "id": "3daaee257607602a",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "820c0263d86a0f97",
+        "name": "",
+        "group": "141eec331f71eaac",
+        "order": 2,
+        "width": 11,
+        "height": 10,
+        "gtype": "gage",
+        "title": "PM2.5 concentration outside",
+        "label": " μg/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "8",
+        "seg2": "12",
+        "diff": false,
+        "className": "gauge",
+        "x": 3200,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d2ec4d1bd8bfb9ef",
+        "type": "ui_gauge",
+        "z": "5e8fae0241b5a5d3",
+        "g": "820c0263d86a0f97",
+        "name": "",
+        "group": "141eec331f71eaac",
+        "order": 3,
+        "width": 11,
+        "height": 10,
+        "gtype": "gage",
+        "title": "PM10 concentration outside",
+        "label": " μg/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "40",
+        "diff": false,
+        "className": "gauge",
+        "x": 3200,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "085fc91ef2c9d61d",
+        "type": "ui_template",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "141eec331f71eaac",
+        "name": "CSS",
+        "order": 28,
+        "width": 1,
+        "height": 1,
+        "format": "<style>\n.gauge{\n    font-size:1.5em;\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2790,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4a736094b1563e9",
+        "type": "ui_slider",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "label": "Vent angle override",
+        "tooltip": "",
+        "group": "637efc48aab047d8",
+        "order": 22,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "1",
+        "max": "90",
+        "step": "1",
+        "className": "",
+        "x": 1290,
+        "y": 1120,
+        "wires": [
+            [
+                "de283c983f8d288e",
+                "885447a46bc24f72",
+                "dc28351a32dd69b1",
+                "3115df86b7b07a55"
+            ]
+        ]
+    },
+    {
+        "id": "84e971207309162a",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "inj",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "95",
+        "payloadType": "num",
+        "x": 890,
+        "y": 1240,
+        "wires": [
+            [
+                "bc0916b0e915b90c"
+            ]
+        ]
+    },
+    {
+        "id": "bc0916b0e915b90c",
+        "type": "file",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "filename": "/home/robert/PrevAngle",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1190,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf18f1ffb1e29003",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Update Status Lights",
+        "func": "var pm25Impact = flow.get(\"pm25Impact\")||3\nvar pm10Impact = flow.get(\"pm10Impact\")||3\nvar tempImpact = flow.get(\"tempImpact\")||3\nvar hdtyImpact = flow.get(\"hdtyImpact\")||3\n\nif(pm10Impact!=3 || pm25Impact!=3 || tempImpact!=3 || hdtyImpact!=3){\n    msg.payload =\"red\"\n}else{\n    msg.payload=\"green\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1480,
+        "wires": [
+            [
+                "4a54289cb722a79f"
+            ]
+        ]
+    },
+    {
+        "id": "4a54289cb722a79f",
+        "type": "switch",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "red",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "green",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 590,
+        "y": 1480,
+        "wires": [
+            [
+                "866a8f6d359ee779",
+                "709a87cfe215347e",
+                "81004bfd334a2c4c"
+            ],
+            [
+                "6e2dd81c919ec7b4",
+                "ad073b4c572756e0",
+                "524188fe036b2adb"
+            ]
+        ]
+    },
+    {
+        "id": "eae51f3a6db17d99",
+        "type": "rpi-gpio out",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Red LED",
+        "pin": "13",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "25edbfd3d14155d0",
+        "type": "rpi-gpio out",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Green LED",
+        "pin": "25",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 970,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "866a8f6d359ee779",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Set to 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 1620,
+        "wires": [
+            [
+                "25edbfd3d14155d0"
+            ]
+        ]
+    },
+    {
+        "id": "6e2dd81c919ec7b4",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Set to 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 1520,
+        "wires": [
+            [
+                "eae51f3a6db17d99"
+            ]
+        ]
+    },
+    {
+        "id": "709a87cfe215347e",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Set to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 1440,
+        "wires": [
+            [
+                "eae51f3a6db17d99"
+            ]
+        ]
+    },
+    {
+        "id": "ad073b4c572756e0",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Set to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 1580,
+        "wires": [
+            [
+                "25edbfd3d14155d0"
+            ]
+        ]
+    },
+    {
+        "id": "abba90d1177acf90",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Activate Override",
+        "func": "if(msg.payload == true){\n    flow.set(\"override\",true)\n}else{\n    flow.set(\"override\", false)\n    flow.set(\"mOverride\", false)\n    flow.set(\"resetting\", false)\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2870,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d5aa55ec312daa3",
+        "type": "ui_switch",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "",
+        "label": "Override vent angle",
+        "tooltip": "",
+        "group": "637efc48aab047d8",
+        "order": 24,
+        "width": 6,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "override",
+        "x": 2590,
+        "y": 240,
+        "wires": [
+            [
+                "abba90d1177acf90"
+            ]
+        ]
+    },
+    {
+        "id": "f8f5e397b5eefee2",
+        "type": "rpi-gpio in",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Green",
+        "pin": "21",
+        "intype": "up",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 2070,
+        "y": 260,
+        "wires": [
+            [
+                "cfe5d65973ade3c6"
+            ]
+        ]
+    },
+    {
+        "id": "06e823bebbb5c1a2",
+        "type": "rpi-gpio in",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Yellow",
+        "pin": "26",
+        "intype": "up",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 2070,
+        "y": 320,
+        "wires": [
+            [
+                "db9822cf9ff1f139"
+            ]
+        ]
+    },
+    {
+        "id": "7fe16f3016605c29",
+        "type": "rpi-gpio in",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Red",
+        "pin": "20",
+        "intype": "up",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 2070,
+        "y": 380,
+        "wires": [
+            [
+                "af8b9cb7d854d494"
+            ]
+        ]
+    },
+    {
+        "id": "cfe5d65973ade3c6",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Manually Fully Closed",
+        "func": "var mOverride = flow.get(\"mOverrideG\")||false\n\nif(msg.payload ==0){\n    if(!mOverride){\n        msg.payload = true; //Connect to toggle overide to set online toggle\n        flow.set(\"mOverrideValue\", 1)\n\n        flow.set(\"mOverrideG\",true)\n        flow.set(\"mOverrideY\", false)\n        flow.set(\"mOverrideR\", false)\n\n        flow.set(\"mOverride\", true)\n    }else{\n        msg.payload=false;\n        flow.set(\"mOverrideG\", false)\n        flow.set(\"mOverride\", false)\n    }\n    \n}else{\n    msg.payload=null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2320,
+        "y": 260,
+        "wires": [
+            [
+                "2d5aa55ec312daa3",
+                "ffc51578fdc0db8d"
+            ]
+        ]
+    },
+    {
+        "id": "7b0d2db92096297f",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 2070,
+        "y": 220,
+        "wires": [
+            [
+                "2d5aa55ec312daa3"
+            ]
+        ]
+    },
+    {
+        "id": "db9822cf9ff1f139",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Manually Half Open",
+        "func": "var mOverride = flow.get(\"mOverrideY\")||false\n\nif(msg.payload ==0){\n    if(!mOverride){\n        msg.payload = true; //Connect to toggle overide to set online toggle\n        flow.set(\"mOverrideValue\", 45)\n\n        flow.set(\"mOverrideY\",true)\n        flow.set(\"mOverrideG\", false)\n        flow.set(\"mOverrideR\", false)\n\n        flow.set(\"mOverride\", true)\n    }else{\n        msg.payload=false;\n        flow.set(\"mOverrideY\", false)\n        flow.set(\"mOverride\", false)\n    }\n    \n}else{\n    msg.payload=null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2310,
+        "y": 320,
+        "wires": [
+            [
+                "2d5aa55ec312daa3",
+                "ffc51578fdc0db8d"
+            ]
+        ]
+    },
+    {
+        "id": "af8b9cb7d854d494",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Manually Fully Open",
+        "func": "var mOverride = flow.get(\"mOverrideR\")||false\n\nif(msg.payload ==0){\n    if(!mOverride){\n        msg.payload = true; //Connect to toggle overide to set online toggle\n        flow.set(\"mOverrideValue\", 90)\n\n        flow.set(\"mOverrideR\",true)\n        flow.set(\"mOverrideG\", false)\n        flow.set(\"mOverrideY\", false)\n\n        flow.set(\"mOverride\", true)\n    }else{\n        msg.payload=false;\n        flow.set(\"mOverrideR\", false)\n        flow.set(\"mOverride\", false)\n    }\n    \n}else{\n    msg.payload=null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2320,
+        "y": 380,
+        "wires": [
+            [
+                "2d5aa55ec312daa3",
+                "ffc51578fdc0db8d"
+            ]
+        ]
+    },
+    {
+        "id": "ffc51578fdc0db8d",
+        "type": "switch",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2610,
+        "y": 340,
+        "wires": [
+            [
+                "4a10e499f1b7c4a6"
+            ],
+            [
+                "0ccc1ab9be2cc3c2"
+            ]
+        ]
+    },
+    {
+        "id": "83842090105ccf96",
+        "type": "ui_toast",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Device Status",
+        "name": "",
+        "x": 3090,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4a10e499f1b7c4a6",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Manual override active",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manual override active",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2840,
+        "y": 300,
+        "wires": [
+            [
+                "83842090105ccf96"
+            ]
+        ]
+    },
+    {
+        "id": "0ccc1ab9be2cc3c2",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Automatic vent control active",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Automatic vent control active",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2860,
+        "y": 360,
+        "wires": [
+            [
+                "d1a7254e75da2ee1"
+            ]
+        ]
+    },
+    {
+        "id": "d1a7254e75da2ee1",
+        "type": "ui_toast",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Device Status",
+        "name": "",
+        "x": 3090,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "0dc9603157687114",
+        "type": "ui_toast",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "AQ Notification",
+        "name": "",
+        "x": 1330,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "2519154e43d9d1ac",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Air quality is unoptimal or unsafe - check sensor readings.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1380,
+        "wires": [
+            [
+                "0dc9603157687114"
+            ]
+        ]
+    },
+    {
+        "id": "81004bfd334a2c4c",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Notification Given",
+        "func": "var alert = flow.get(\"Alert\")||false\n\nif(alert){\n    msg.payload = false;\n}else{\n    msg.payload = true;\n    flow.set(\"Alert\", true)\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1380,
+        "wires": [
+            [
+                "d866349e62c5e14b"
+            ]
+        ]
+    },
+    {
+        "id": "524188fe036b2adb",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "Reset alert",
+        "func": "flow.set(\"Alert\", false)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d866349e62c5e14b",
+        "type": "switch",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 1380,
+        "wires": [
+            [
+                "2519154e43d9d1ac"
+            ]
+        ]
+    },
+    {
+        "id": "eeda6bb74524fab5",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "17638bed092c0ddf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 1660,
+        "wires": [
+            [
+                "524188fe036b2adb"
+            ]
+        ]
+    },
+    {
+        "id": "2d8f3f3f295f578d",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "24124fc0cd2f9a80",
+        "name": "Reset",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 1350,
+        "y": 200,
+        "wires": [
+            [
+                "5d15d201d66efe86"
+            ]
+        ]
+    },
+    {
+        "id": "608f3342f4357b59",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 980,
+        "wires": [
+            [
+                "298ffc7a8b9a6737"
+            ]
+        ]
+    },
+    {
+        "id": "298ffc7a8b9a6737",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Filter",
+        "func": "var resetting = flow.get(\"resetting\")||false\nvar mOverride = flow.get(\"mOverride\")||false\n\nif(mOverride){\n    msg.payload=\"mOverride\"\n}\nelse if(resetting){\n    msg.payload = \"resetting\";\n}\nelse{\n    msg.payload = \"normal\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 980,
+        "wires": [
+            [
+                "6f29b03a41692c3b"
+            ]
+        ]
+    },
+    {
+        "id": "6f29b03a41692c3b",
+        "type": "switch",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Yes Or No",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "normal",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "mOverride",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "resetting",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 630,
+        "y": 980,
+        "wires": [
+            [
+                "7fce40221695a2c4",
+                "833f769ccf2bae19"
+            ],
+            [
+                "dbc934472733beb7",
+                "50df06b86823612c"
+            ],
+            [
+                "50df06b86823612c",
+                "02a7bd80d3705d11"
+            ]
+        ]
+    },
+    {
+        "id": "7fce40221695a2c4",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Set Angle - Normal",
+        "func": "var override = flow.get(\"override\")||false\nvar mOverride = flow.get(\"mOverride\")||false\nvar ventAngle = flow.get(\"ventAngle\")||20\nvar overrideValue = flow.get(\"overrideValue\")\n\nif(override){\n    msg.payload = overrideValue;\n\n}else{\n    msg.payload = ventAngle;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 940,
+        "wires": [
+            [
+                "a0fb656e146251ef",
+                "ae23abcca9db4cc0",
+                "d18f4c591f06743a",
+                "c4a736094b1563e9"
+            ]
+        ]
+    },
+    {
+        "id": "a0fb656e146251ef",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Correct For Motor",
+        "func": "msg.payload=95-msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 980,
+        "wires": [
+            [
+                "a97329a38e8cbf76"
+            ]
+        ]
+    },
+    {
+        "id": "ae23abcca9db4cc0",
+        "type": "rbe",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1450,
+        "y": 940,
+        "wires": [
+            [
+                "7ead37e3dcd4ad19"
+            ]
+        ]
+    },
+    {
+        "id": "7ead37e3dcd4ad19",
+        "type": "exec",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "command": "python3 /home/robert/motor1.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1730,
+        "y": 940,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a97329a38e8cbf76",
+        "type": "file",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "filename": "/home/robert/NewAngle",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1710,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2693847e8c067aab",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Format Message",
+        "func": "var override = flow.get(\"override\")||false\n\n\nif(override){\n    msg.payload = \"Setting vent to \"+msg.payload+\" degrees.\";\n}else{\n    msg.payload = null\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 1040,
+        "wires": [
+            [
+                "56de0c1d72391829"
+            ]
+        ]
+    },
+    {
+        "id": "2f6218f000160931",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Reset Override Values If Cancelled",
+        "func": "if(msg.payload == \"Cancel\"){\n    flow.set(\"resetting\", true)\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2360,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de283c983f8d288e",
+        "type": "gate",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 1470,
+        "y": 1040,
+        "wires": [
+            [
+                "2693847e8c067aab"
+            ]
+        ]
+    },
+    {
+        "id": "833f769ccf2bae19",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "open",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 1020,
+        "wires": [
+            [
+                "de283c983f8d288e"
+            ]
+        ]
+    },
+    {
+        "id": "dbc934472733beb7",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Set Angle - mOverride",
+        "func": "var mOverrideValue = flow.get(\"mOverrideValue\")\nmsg.payload = mOverrideValue;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1120,
+        "wires": [
+            [
+                "ae23abcca9db4cc0",
+                "a0fb656e146251ef",
+                "d18f4c591f06743a",
+                "c4a736094b1563e9"
+            ]
+        ]
+    },
+    {
+        "id": "50df06b86823612c",
+        "type": "change",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "close",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "close",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 1060,
+        "wires": [
+            [
+                "de283c983f8d288e"
+            ]
+        ]
+    },
+    {
+        "id": "02a7bd80d3705d11",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Set Angle - resetting",
+        "func": "var previousAngle = flow.get(\"previousAngle\")||20\nmsg.payload = previousAngle;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1180,
+        "wires": [
+            [
+                "d18f4c591f06743a",
+                "c4a736094b1563e9"
+            ]
+        ]
+    },
+    {
+        "id": "885447a46bc24f72",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "Set Override Value",
+        "func": "var resetting = flow.get(\"resetting\")||false\n\nflow.set(\"previousAngle\", flow.get(\"currentAngle\"))\nflow.set(\"currentAngle\", msg.payload)\nif(resetting){\n    flow.set(\"previousAngle\", 20)\n    flow.set(\"resetting\", false)\n}\n\nflow.set(\"currentOverride\", msg.payload)\n\nif(flow.get(\"override\")){\n    flow.set(\"overrideValue\", msg.payload)\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56de0c1d72391829",
+        "type": "ui_toast",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "gauge",
+        "topic": "Override vent angle",
+        "name": "",
+        "x": 2070,
+        "y": 1040,
+        "wires": [
+            [
+                "2f6218f000160931"
+            ]
+        ]
+    },
+    {
+        "id": "dc28351a32dd69b1",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "mOverride override",
+        "func": "var mOverride = flow.get(\"mOverride\")||false\nmsg.topic = \"control\"\nif(mOverride){\n    var mOverrideG = flow.get(\"mOverrideG\")||false\n    var mOverrideY = flow.get(\"mOverrideY\")||false\n    var mOverrideR = flow.get(\"mOverrideR\")||false\n\n    if(mOverrideG && msg.payload!=1){\n        flow.set(\"mOverride\", false)\n        flow.set(\"mOverrideG\", false)\n        flow.set(\"overrideValue\", msg.payload)\n        msg.payload = \"open\"\n    }\n    else if(mOverrideY && msg.payload!=45){\n        flow.set(\"mOverride\",false)\n        flow.set(\"mOverrideY\", false)\n        flow.set(\"overrideValue\", msg.payload)\n        msg.payload = \"open\"\n    }\n    else if(mOverrideR && msg.payload !=90){\n        flow.set(\"mOverride\",false)\n        flow.set(\"mOverrideR\", false)\n        flow.set(\"overrideValue\", msg.payload)\n        msg.payload = \"open\"\n    }else{\n        msg.payload = \"close\"\n    }\n}else{\n    msg.payload = \"close\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1160,
+        "wires": [
+            [
+                "861a9df1aa4ddc31"
+            ]
+        ]
+    },
+    {
+        "id": "3115df86b7b07a55",
+        "type": "delay",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.0001",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1560,
+        "y": 1220,
+        "wires": [
+            [
+                "861a9df1aa4ddc31"
+            ]
+        ]
+    },
+    {
+        "id": "861a9df1aa4ddc31",
+        "type": "gate",
+        "z": "5e8fae0241b5a5d3",
+        "g": "57f52333f9d64ee1",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 1830,
+        "y": 1160,
+        "wires": [
+            [
+                "2693847e8c067aab"
+            ]
+        ]
+    },
+    {
+        "id": "c5e9d483bbf5fc54",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2110,
+        "y": 440,
+        "wires": [
+            [
+                "c673356e3eade745"
+            ]
+        ]
+    },
+    {
+        "id": "c673356e3eade745",
+        "type": "function",
+        "z": "5e8fae0241b5a5d3",
+        "g": "bab6a2b5226995d5",
+        "name": "Reset overrides",
+        "func": "flow.set(\"mOverride\", false)\nflow.set(\"mOverrideG\", false)\nflow.set(\"mOverrideY\", false)\nflow.set(\"mOverrideR\", false)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2380,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39de99e964c1fbcd",
+        "type": "ui_media",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "878755477d7ac85d",
+        "name": "",
+        "width": 10,
+        "height": 2,
+        "order": 31,
+        "category": "logo",
+        "file": "LogoImageCropped.PNG",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 2970,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a374c59842344413",
+        "type": "ui_media",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "5fd4916e1cb3609c",
+        "name": "",
+        "width": 9,
+        "height": 2,
+        "order": 5,
+        "category": "logo",
+        "file": "LogoImageCropped.PNG",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 2970,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98f042514fb65088",
+        "type": "ui_media",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "637efc48aab047d8",
+        "name": "",
+        "width": 10,
+        "height": 2,
+        "order": 29,
+        "category": "logo",
+        "file": "LogoImageCropped.PNG",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 2970,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ebb19fec4a76655",
+        "type": "ui_media",
+        "z": "5e8fae0241b5a5d3",
+        "g": "cc64f2cdd3273351",
+        "group": "141eec331f71eaac",
+        "name": "",
+        "width": 11,
+        "height": 2,
+        "order": 24,
+        "category": "logo",
+        "file": "LogoImageCropped.PNG",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 2970,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72ad57e8373b018c",
+        "type": "inject",
+        "z": "5e8fae0241b5a5d3",
+        "name": "Reset",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 1329.131591796875,
+        "y": 736.8265991210938,
+        "wires": [
+            [
+                "80642b5f021e02ef"
+            ]
+        ]
+    },
+    {
+        "id": "e3f00c94b8cac29a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "5fd4916e1cb3609c",
+        "order": 4,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "1ed3daf1a350a3fe",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "5fd4916e1cb3609c",
+        "order": 6,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "b6e01bdbaebdc256",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "5fd4916e1cb3609c",
+        "order": 7,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "693c3f1d0189fa71",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "5fd4916e1cb3609c",
+        "order": 8,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "2ac43d31dbec85fe",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 1,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "e92965cc228fd2e8",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 3,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "e00b7ac9f36d2262",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 4,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "4f078f244c6c8ffd",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 5,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "65a2cfa3fedf5651",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 6,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "63d182355de1d722",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 7,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "fce67a05756ee7aa",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 8,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "a2f277262d12ef86",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 9,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "8f21b2868b4f9845",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 10,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "63394dbd8b418f7e",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 11,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "44dc88090bd98771",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e9cbbfc10ee756d2",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 14,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "2b35ce0d746262f7",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 15,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "fde1927d9979f4d2",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 16,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "48bf3e473b257081",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 17,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "9b1d1dfc15700827",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 18,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "1d1599719fa33a19",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 19,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "3b88aab6cfba9f07",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 20,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "fd250ec1aba911c5",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 21,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "8d440adb77e0fffa",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 23,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "9b1c6282c1e4a4fb",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 25,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "3934a6f7284ad23d",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 26,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "61d9ab71b3a2359c",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 27,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "70a2967565431e46",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 28,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "2e71459ab00bb411",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 30,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "261f26335cb34561",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 31,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "5c2819844b0208b9",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "637efc48aab047d8",
+        "order": 32,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "578f36b1959c0800",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d58a885fd01b5951",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "91530e02a418c65a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6e6b419b982cf7bd",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "414085ed0169ef60",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c3b0330e2bb5aa70",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2547d66242c1d78e",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "11535d46d45f86a0",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1df42f5ccc9b995a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "664bc8f6f4405a7d",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5ee8e91680d4f876",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "921ff010075ae584",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 16,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "fc0e7ed58f49f16a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 17,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ab4c3ade5b69cfd9",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 18,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3270d8a442d7a89b",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 19,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "57ce50a93c54549e",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 20,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6c9becb4b820b3c2",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 21,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "db4e682db454becd",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 22,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "7cb5adaa5f3f7630",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 23,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "93c851304728bcd4",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 24,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "af2145ba941fb67e",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 25,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e5a91fa0e40a5cb8",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 26,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8381d2e99d80e13a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 27,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "141534492adda18f",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 29,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f254e14605dc237a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 30,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "51094c335c56613c",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 32,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "457a1618eca5b377",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 33,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "134badfb7255b8d9",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "878755477d7ac85d",
+        "order": 34,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "8dc35b12c91b368c",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "77d7dc4cd9bfcfaa",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "cfb6273f41b556a9",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3b8fe137eb2dd40a",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "487f4fba0bc48618",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "aaa1747015ce46a3",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "919c6ce308ad7623",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5764e4d1ef24ef88",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "c5090281091d605d",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "aec093e9febfd00d",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "fac9bddb64ee0718",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e3170038b497b25e",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5424ed2c5fce9975",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 15,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "c43208de87ab4fd3",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "467570b65460d289",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 17,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f7fb0ea71897d6f2",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "0fec1ef793a21248",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 19,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d5bde181d055c3a2",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f1c1ae9c4d3a82cd",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9464f633e3a5c359",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 22,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5889ba13ca090ca3",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 23,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "4ea8f81de5e62280",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 25,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "a97598d972c8a5a3",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 26,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "629ab977f0b54a06",
+        "type": "ui_spacer",
+        "z": "5e8fae0241b5a5d3",
+        "name": "spacer",
+        "group": "141eec331f71eaac",
+        "order": 27,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "878755477d7ac85d",
+        "type": "ui_group",
+        "name": "Gauges",
+        "tab": "a85594b008932d35",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5fd4916e1cb3609c",
+        "type": "ui_group",
+        "name": "Graphs",
+        "tab": "43a287e68794e10a",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "637efc48aab047d8",
+        "type": "ui_group",
+        "name": "Vent",
+        "tab": "afafe4d7e5e8e72b",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "141eec331f71eaac",
+        "type": "ui_group",
+        "name": "PM levels",
+        "tab": "eb720b3113293d42",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a85594b008932d35",
+        "type": "ui_tab",
+        "name": "Gauges",
+        "icon": "track_changes",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "43a287e68794e10a",
+        "type": "ui_tab",
+        "name": "Graphs",
+        "icon": "timeline",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "afafe4d7e5e8e72b",
+        "type": "ui_tab",
+        "name": "Vent Angle",
+        "icon": "looks",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "eb720b3113293d42",
+        "type": "ui_tab",
+        "name": "Outside data",
+        "icon": "nature_people",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]
