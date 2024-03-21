@@ -14,6 +14,7 @@ minPW=(0.5-myCorrection)/1000
 servo = AngularServo(myGPIO, initial_angle=0, min_angle=0, max_angle=180, min_pulse_width=minPW, max_pulse_width=maxPW,pin_factory=my_factory)
 
 #Function for smoothly turning vent from previous angle to given angle
+
 def turn(fromAngle, toAngle):
 	if fromAngle>toAngle:	#For closing vent
 		for angle in range(fromAngle, toAngle, -1): #Smoothly turn from fromAngle to toAngle
